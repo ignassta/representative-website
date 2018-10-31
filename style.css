@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-weight: 500;
+}
+#mountain-picture-holder {
+    background-image: url(https://www.barbican.org.uk/sites/default/files/images/2018-01/MOUNTAIN_05_0.jpg);
+    background-repeat: no-repeat;
+    height:100vh;
+    background-position: center center;
+}
+#mountain-picture-text-holder {
+    text-align: center;
+    color: white;
+    margin-top: 48%;
+}
+.star {
+    font-size: 12px;
+    padding-bottom: 6px;
+    vertical-align: middle;
+}
+#about-holder {
+    padding: 50px 0;
+}
+#about-text-holder {
+    text-align: center;
+}
+#about-text-holder h1 {
+    color: #0ec0de;
+}
+#about-text-holder p {
+    color: #45484d;
+}
+#team-holder {
+    background-color: #0ec0de;
+    overflow: auto;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.team-member-photo {
+    display: inline-block;
+    margin-top: 110px;
+}
+.team-member-photo img {
+    width: 150px;
+    border-radius: 75px;
+}
+#team-member-name {
+    margin-top: 5px;
+}
+#team-member-position {
+    font-weight: 400;
+    font-style: italic;
+    margin-top: -15px;
+}
+#work-with-us-link {
+    margin-top: 95px;
+}
+#work-with-us-link a {
+    padding: 10px 35px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+#map {
+    height: 90vh;
+    width: 100%;
+}
+#footer-holder {
+    background-color: #45484d;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+#footer-top-left a {
+    text-decoration: none;
+    color: #d6dde3;
+    margin: 0 18px;
+}
+#footer-top-right a{
+    text-decoration: none;
+    color: #d6dde3;
+    font-size: 150%;
+    margin: 0 18px;
+    float: right;
+}
+.footer-bottom {
+    border-top: 1px solid #5a5d62;
+    padding-top: 10px
+}
+.footer-bottom-text {
+    text-align: center;
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: #5a5d62;
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 768px) {
+    .team-member-photo, #work-with-us-link {
+        margin-top: 40px;
+    }
+    #footer-top-left {
+        text-align: center;
+    }
+    #footer-top-right {
+        text-align: center;
+        margin-top: 15px;
+
+    }
+    #footer-top-right a{
+        float: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 35px;
+    }
+}
