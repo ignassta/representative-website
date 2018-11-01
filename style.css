@@ -21,7 +21,8 @@ p {
     vertical-align: middle;
 }
 #about-holder {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #about-text-holder {
     text-align: center;
@@ -34,19 +35,17 @@ p {
 }
 #team-holder {
     background-color: #0ec0de;
-    overflow: auto;
     text-align: center;
     color: white;
     padding-top: 60px;
     padding-bottom: 20px;
 }
 .team-member-photo {
-    display: inline-block;
     margin-top: 110px;
 }
 .team-member-photo img {
     width: 150px;
-    border-radius: 75px;
+    border-radius: 50%;
 }
 #team-member-name {
     margin-top: 5px;
@@ -118,7 +117,6 @@ p {
     #footer-top-right {
         text-align: center;
         margin-top: 15px;
-
     }
     #footer-top-right a{
         float: none;
